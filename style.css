@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    
+}
+.container {
+    width: 550px;
+    height: 550px;
+    margin: 2rem;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-bar {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-bar > input {
+    height: 42px;
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    background: #FFFFFF;
+}
+
+
+.menu-bar > select {
+    width: 310px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 16px;
+
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    background: #FFFFFF;
+}
+
+.menu-bar > button {
+    height: 42px;
+    font-weight: 500;
+    font-size: 12px;
+    border: 1px solid #D1D5DB;
+    border-radius: 4px;
+    background: #FFFFFF;
+
+    cursor: pointer;
+}
+
+#color-container {
+    display: flex;
+    flex-direction: row;
+    
+    height: 100%;
+    width: 100%;
+    
+}
+
+#hex-container {
+    display: flex;
+    height: 46px;
+    flex-direction: row;
+    
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.hex-name {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.color-bar {
+    width: 100%;
+}
+
+.color-bar:hover {
+    transform: scale(1.02);
+    border: 1px black solid;
+}
